@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <algorithm>
 using namespace std;
-//数据类型T需要实现 operator <
+//the datatype T must implete operator <
 template <class T>
 void bubble_sort(T *array,int num){
 	for(int i=num-1;i>0;--i)

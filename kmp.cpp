@@ -64,6 +64,14 @@ public:
 		num=count;
 		return result;
 	}	
+	static int* cal_nextvar(const int *next,int num){
+		int *nextvar = new int[num];
+		int j=0;
+		nextvar[j]= -1;
+		for(j=1;j< num ;++ j){}
+		
+		return nextvar;
+	}
 	static int* cal_next(const T* pattern,int len){
 		int *next = new int[len];
 		int i=0;

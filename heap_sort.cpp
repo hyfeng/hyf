@@ -102,7 +102,7 @@ public:
 	}
 };
 int main(){
-	int da[5]={5,4,3,2,1};
+	int da[5]={5,3,4,2,1};
 	HeapSort<int> heap(da,5);
 	//heap.test();
 	copy(da,da+5,ostream_iterator<int>(cout," "));
